@@ -41,44 +41,15 @@ export const CONSTANT = Object.freeze({
   CHAT_HISTORY: "Chat History",
 });
 export const ROUTES = Object.freeze({
-  // Customer Routes
-
   DASHBOARD: "/dashboard",
   LOGIN: "/login",
   SIGNUP: "/signup",
-  ASSESSMENT: "/assessment",
-  OVERVIEW: "/overview",
-  PROFILE: "/profile",
-  SETTINGS: "/settings",
-  CUSTOMERP_ROFILE: "/customerprofile",
-  PERSONAL_TAX: "/personaltax",
-  PARTNERSHIP_TAX: "/partnershiptax",
-  INSIGHTS_GUIDES: "/insights-guides",
-  LIMITED_COMPANY: "/limited-company",
-  BUSINESSES: "/businesses",
-  ACCOUNTANTS: "/accountants",
-  CUSTOMERS: "/customers",
+  USER_PROFILE: "/profile",
 
   // Admin Routes
+  ADMIN_DASHBOARD: "/admin/dashboard",
+  SUPER_ADMIN_DASHBOARD: "/super-admin/dashboard",
 
-  ADMIN_BUSINESSES: "/admin/businesses",
-  ADMIN_ACCOUNTANTS: "/admin/accountants",
-  ADMIN_CLIENTS: "/admin/clients",
-  ADMIN_OVERVIEW: "/admin/overview",
-  ADMIN_SETTINGS: "/admin/settings",
-  ADMIN_ASSESSMENT_STATUS: "/admin/assessment-status",
-  ADMIN_PROFILE: "/admin/profile",
-  ADMIN_INDIVIDUALS: "/admin/clients/individuals",
-  ADMIN_COMPANY: "/admin/clients/company",
-  ADMIN_PARTERSHIPS: "/admin/clients/partnerships",
-  ASMIN_INSIGHTS_AND_DUIDES: "/admin/insights-guides",
-
-  // Accountant Routes
-  ACCOUNTANT_OVERVIEW: "/accountant/overview",
-  ACCOUNTANT_TAX_FILLING: "/accountant/taxfilling",
-  ACCOUNTANT_CHAT_HISTORY: "/accountanta/chat-history",
-  ACCOUNTANTA_INSIGHTS_GUIDES: "/accountanta/insights-guides",
-  ACCOUNTANTA_SETTINGS: "/accountanta/setting",
 });
 export const ERROR_MESSAGE = Object.freeze({
   INVALID_EMAIL: "Invalid email",
@@ -88,7 +59,5 @@ export const ERROR_MESSAGE = Object.freeze({
 export const USER_TYPE = Object.freeze({
   CUSTOMER: "customer",
   ADMIN: "admin",
-  ACCOUNTANT: "accountant",
-  BUSINESS: "business",
-  SERVICE_MANAGER: "service manager",
+  SUPER_ADMIN: "super_admin",
 });
