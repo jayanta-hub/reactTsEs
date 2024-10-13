@@ -26,6 +26,7 @@ const App: React.FC = (): JSX.Element => {
           <Routes>
             {/** Public Routes */}
             <Route path="*" element={<Navigate to={ROUTES.LOGIN} replace />} />
+            <Route path={ROUTES.LOGIN} element={<GuestDashboard />} />
             {/** Protected Routes */}
             <Route element={<AuthRoutes />}>
               <Route path={ROUTES.ASSESSMENT} element={<GuestDashboard />} />
